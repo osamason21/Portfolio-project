@@ -2,11 +2,11 @@
 
 - **Name**: Osama
 - **Dot Number**: almansour.14
-- **Due Date**: 11/13 
+- **Due Date**: 11/13
 
 ## Assignment Overview
 
-<!-- TODO: read the assignment overview then delete this comment -->
+
 
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
@@ -29,7 +29,7 @@ implement.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
+
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -52,7 +52,7 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
+
 
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
@@ -112,9 +112,14 @@ the magnifying glass icon in the upper-right corner or pressing CTRL+K and
 then V. This kind of button combination is called a chord, for whatever
 reason -->
 
+I really love to draw and animate, I am currently in a art block phase I dont really know what i want
+to create, so I am basically in this state where im just obsorbing and learning anything that interests me.
+I am also interested in building up my skills in game dev I want to work on my own personal projects/games
+
+
 ## Assignment
 
-<!-- TODO: read the assignment section then delete this comment -->
+
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
@@ -122,7 +127,9 @@ that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
 
-<!-- TODO: browse the list of possible projects then delete this comment -->
+
+
+
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -211,30 +218,36 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: `CreatureStack` my idea
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    -
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    the kernel methods for my stack idea would be void push(T x) and T pop() very primitive
+    the kenrel class would also instantiate the int health value and instantiate a defualt name
+    for each creature in the stack
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    the secondray methods would interact with the data of each type T pushed into the stack
+    for an example if you void feedAllwithName(String name); would only feed the creatures with a certain name
+
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - yes inherit from Standard.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - inherit from Standard. `clear`, `newInstance`, and `transferFrom` all
+        mutate `this`.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - yes a defualt name and hunger if the name has not been passed in the
+        cunstructor
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - yes you can
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: `Queue`
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    -
   - **Kernel Methods**:
     - <!-- TODO: list kernel methods then delete this comment -->
   - **Secondary Methods**:
