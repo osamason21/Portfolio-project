@@ -1,9 +1,8 @@
 # Portfolio Part 3: Component Interfaces
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
-
+- **Name**: Osama Almansour
+- **Dot Number**: almansour.14
+- **Due Date**: 11/12/26
 ## Assignment Overview
 
 By now, you have had the opportunity to create three high-level component
